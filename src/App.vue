@@ -18,8 +18,16 @@
         </router-link> -->
       </header>
   <router-view/>
+  <Sidebar/>
 </template>
 
-<style scoped>
+<script>
+import Sidebar from '@/components/Sidebar.vue'
 
-</style>
+export default defineComponent({
+  setup() {
+    
+  },
+})
+</script>
+
